@@ -27,5 +27,4 @@ COPY --from=builder /tmp/actix_web_docker/target/x86_64-unknown-linux-musl/relea
 ## Setup The Using App User
 USER 1000:1000
 ## Run
-EXPOSE 8000
 CMD ["/home/nnao45/actix_web_docker"]
